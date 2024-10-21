@@ -10,18 +10,18 @@ const Footer = () => {
                     <img src={assets.navlogo} alt="" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis sit expedita laboriosam suscipit, est ipsam, beatae numquam itaque, voluptatibus asperiores ab rerum amet! Ipsam quae quod consequuntur inventore sunt.</p>
                     <div className="footer-social-icons">
-                        <img src={assets.facebook_icon} alt="" />
-                        <img src={assets.twitter_icon} alt="" />
-                        <img src={assets.linkedin_icon} alt="" />
+                        <a href=""><img src={assets.facebook_icon} alt="" /></a>
+                        <a href=""><img src={assets.twitter_icon} alt="" /></a>
+                        <a href=""><img src={assets.linkedin_icon} alt="" /></a>
                     </div>
                 </div>
                 <div className="footer-content-center">
                     <h2>COMAPNY</h2>
                     <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Delivery</li>
-                        <li>Privacy policy</li>
+                        <a href=""><li>Home</li></a>
+                        <a href=""><li>About us</li></a>
+                        <a href=""><li>Delivery</li></a>
+                        <a href=""><li>Privacy policy</li></a>
                     </ul>
                 </div>
                 <div className="footer-content-right">
